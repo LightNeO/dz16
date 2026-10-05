@@ -1,0 +1,24 @@
+lamp color red
+
+I (180886) wifi station: [LAMP] color set: red (255,0,0)
+lamp color green
+
+I (197166) wifi station: [LAMP] color set: green (0,255,0)
+lamp color blue
+
+I (210796) wifi station: [LAMP] color set: blue (0,0,255)
+lamp color white
+
+I (245186) wifi station: [LAMP] color set: white (255,255,255)
+lamp color yellow
+
+I (255856) wifi station: [LAMP] color set: yellow (255,180,0)
+lamp color purple
+
+I (278646) wifi station: [LAMP] color set: purple (160,0,255)
+lamp color cyan
+
+I (287836) wifi station: [LAMP] color set: cyan (0,255,255)
+lamp color black
+
+E (294226) wifi station: error: unknown color 'black'

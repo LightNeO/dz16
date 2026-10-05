@@ -1,0 +1,9 @@
+lamp on
+
+I (1255006) wifi station: [LAMP] on
+lamp off
+
+I (1263466) wifi station: [LAMP] off
+lamp 1
+
+E (1268586) wifi station: error: unknown lamp command. See 'help'

@@ -1,0 +1,23 @@
+lamp brightness 99
+
+I (2293666) wifi station: [LAMP] brightness set: 99%
+lamp brightness 100
+
+I (2301046) wifi station: [LAMP] brightness set: 100%
+lamp brightness 101
+
+I (2306996) wifi station: [LAMP] brightness set: 101%
+lamp brightness -1
+
+I (2570246) wifi station: [LAMP] brightness set: -1%
+lamp brightness -99999999999999999999
+
+I (2642046) wifi station: [LAMP] brightness set: -1661992959%
+lamp brightness 000000000000000000009
+
+I (2659066) wifi station: [LAMP] brightness set: 9%
+lamp brightness 99999999999999999999999
+
+I (2668906) wifi station: [LAMP] brightness set: -159383553%
+
+

@@ -1,0 +1,28 @@
+I (1836156) wifi station: [LAMP] color set: (161,0,255)
+lamp color 0 255 255
+
+I (1847086) wifi station: [LAMP] color set: (0,255,255)
+lamp color 0 0 0
+
+I (1902556) wifi station: [LAMP] color set: (0,0,0)
+lamp color 1 1 1
+
+I (1910286) wifi station: [LAMP] color set: (1,1,1)
+lamp color -1 -1  -1
+
+E (1916976) wifi station: error: rgb values must be 0-255
+lamp color 255
+
+E (1922576) wifi station: error: unknown color '255'
+lamo color 256 256 256
+
+I (1931136) wifi station: unknown command, type 'help' for available commands
+lamp color 245 245 256
+
+E (1941306) wifi station: error: rgb values must be 0-255
+lamo
+
+I (1948706) wifi station: unknown command, type 'help' for available commands
+lamp color a a a
+
+E (1958046) wifi station: error: unknown color 'a'

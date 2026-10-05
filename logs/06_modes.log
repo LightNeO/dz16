@@ -1,0 +1,18 @@
+lamp mode solid
+
+I (3264186) wifi station: [LAMP] mode set: solid
+lamp mode blink
+
+I (3271676) wifi station: [LAMP] mode set: blink
+lamp mode breathe
+
+I (3277606) wifi station: [LAMP] mode set: breathe
+lamp mode rainbow
+
+E (3284866) wifi station: error: mode 'rainbow' not implemented yet
+lamp mode wrong
+
+E (3291426) wifi station: error: unknown mode 'wrong'
+lamp mode 1
+
+E (3305976) wifi station: error: unknown mode '1'

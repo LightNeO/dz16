@@ -1,0 +1,9 @@
+ota check
+
+E (4290) wifi station: [OTA] failed: WiFi not connected. Use 'connect' first.
+ota update
+
+E (7540) wifi station: [OTA] failed: WiFi not connected. Use 'connect' first.
+ota install 1.4.9
+
+E (12470) wifi station: [OTA] failed: WiFi not connected. Use 'connect' first.

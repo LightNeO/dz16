@@ -1,0 +1,31 @@
+lamp timer 1
+
+E (3636466) wifi station: error: lamp is off
+lamp on
+
+I (3645226) wifi station: [LAMP] on
+lamp timer 1
+
+I (3652616) wifi station: [LAMP] auto-off in 1 s
+I (3653626) wifi station: [LAMP] timer expired, lamp off
+lamp timer 3600
+
+E (3661976) wifi station: error: lamp is off
+lamp on
+
+I (3666836) wifi station: [LAMP] on
+lamp timer 3600
+
+I (3672456) wifi station: [LAMP] auto-off in 3600 s
+lamp timer 3601
+
+E (3681206) wifi station: error: timer must be 1-3600 s (0 = cancel)
+lamp timer a
+
+E (3686076) wifi station: error: unknown lamp command. See 'help'
+lamp timer 0
+
+I (3694166) wifi station: [LAMP] timer cancelled
+lamp timer -1
+
+E (3715016) wifi station: error: timer must be 1-3600 s (0 = cancel)

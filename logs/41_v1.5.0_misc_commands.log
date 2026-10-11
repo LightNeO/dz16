@@ -1,0 +1,138 @@
+ota-test-server
+ota-test-server
+
+E (49134) wifi station: OTA failed: WiFi not connected. Use 'connect' first.
+version
+version
+
+I (72434) wifi station: FW: v1.5.0 (build Sep 29 2026 15:23:09)
+I (72434) wifi station:   partition: ota_0 @ 0x10000, state: valid
+foobar
+foobar
+
+I (75694) wifi station: unknown command, type 'help' for available commands
+sysinfo
+sysinfo
+
+I (78964) wifi station: === System Info ===
+I (78964) wifi station:   Chip:        ESP32-S3 rev 2
+I (78964) wifi station:   Cores:       2
+I (78964) wifi station:   CPU freq:    160 MHz
+I (78964) wifi station:   Flash:       2 MB
+I (78964) wifi station:   Free heap:   275 KB
+I (78974) wifi station:   Min heap:    271 KB
+I (78974) wifi station:   Uptime:      0h 01m 18s
+I (78984) wifi station:   Temperature: 41.6 C
+temp
+temp
+
+I (82224) wifi station: chip temperature: 40.6 C
+sensor status
+sensor status
+
+I (85384) wifi station: === Sensor Status ===
+I (85384) wifi station:   Distance:  11.0 cm
+I (85384) wifi station:   Relay:     OFF
+I (85384) wifi station:   LED:       auto (WiFi status)
+I (85384) wifi station:   WiFi:      disconnected
+I (85394) wifi station:   Temp:      41.6 C
+relay on
+relay on
+
+I (88644) wifi station: relay ON
+relay off
+relay off
+
+I (91804) wifi station: relay OFF
+led on
+led on
+
+I (94964) wifi station: LED ON
+led off
+led off
+
+I (98224) wifi station: LED OFF
+led auto
+led auto
+
+I (101384) wifi station: LED auto mode
+led rgb
+led rgb
+
+I (104644) wifi station: RGB cycle 5s...
+I (109664) wifi station: RGB done
+distance 2
+distance 2
+
+I (113904) wifi station: measuring for 2 seconds...
+I (113904) wifi station: distance: 7.9 cm
+I (114404) wifi station: distance: 7.9 cm
+I (114904) wifi station: distance: 11.0 cm
+I (115404) wifi station: distance: 11.0 cm
+I (115904) wifi station: distance: 11.0 cm
+I (116404) wifi station: done
+lamp on
+lamp on
+
+I (122614) wifi station: [LAMP] on
+led on
+led on
+
+E (125864) rmt: rmt_tx_enable(762): channel not in init state
+E (125864) led_strip_rmt: led_strip_rmt_refresh(87): enable RMT channel failed
+I (125864) wifi station: LED ON
+lamp status
+lamp status
+
+{"lamp":"on","color":[255,255,255],"brightness":50,"mode":"solid","timer_s":0}
+lamp off
+lamp off
+
+I (132404) wifi station: [LAMP] off
+led auto
+led auto
+
+I (135664) wifi station: LED auto mode
+connect
+connect
+
+I (138824) wifi station: scanning...
+I (141324) wifi station: found 7 networks:
+I (141324) wifi station:   [1] CMF                               -46 dBm
+I (141324) wifi station:   [2] NeO                               -60 dBm
+I (141324) wifi station:   [3] TP-Link_E8F5                      -64 dBm
+I (141334) wifi station:   [4] AP_2947486690                     -70 dBm
+I (141334) wifi station:   [5] TP-LINK_E6F2                      -71 dBm
+I (141344) wifi station:   [6] F100011002624340102               -83 dBm
+I (141354) wifi station:   [7] HUAWEI-AN85                       -83 dBm
+Enter SSID or number from list: CMF
+CMF
+
+I (144584) wifi station: SSID: CMF
+Enter password: ***
+***
+
+I (147744) wifi station: password: ***
+I (147754) wifi station: connecting to SSID:CMF ...
+I (148364) wifi:new:<6,0>, old:<1,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0
+I (148364) wifi:state: init -> auth (0xb0)
+I (148944) wifi:state: auth -> assoc (0x0)
+I (148964) wifi:state: assoc -> run (0x10)
+I (148984) wifi:connected with CMF, aid = 1, channel 6, BW20, bssid = ca:82:80:14:af:73
+I (148984) wifi:security: WPA3-SAE HUNT_AND_PECK, phy: bgn, rssi: -44, cipher(pairwise:0x3, group:0x3), pmf:1
+I (149004) wifi:pm start, type: 1
+
+I (149004) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+I (149004) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000
+I (149014) wifi:dp: 2, bi: 102400, li: 4, scale listen interval from 307200 us to 409600 us
+I (149024) wifi:AP's beacon interval = 102400 us, DTIM period = 2
+I (150054) esp_netif_handlers: sta ip: 10.155.147.138, mask: 255.255.255.0, gw: 10.155.147.242
+I (150054) wifi station: got ip:10.155.147.138
+I (150054) wifi station: successfully connected to SSID:CMF
+status
+status
+
+I (155354) wifi station: WiFi: connected
+I (155354) wifi station:   SSID: CMF
+I (155354) wifi station:   IP:   10.155.147.138
+I (155354) wifi station:   RSSI: -48 dBm

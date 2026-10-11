@@ -1,0 +1,262 @@
+connect
+connect
+
+I (138071) wifi station: scanning...
+I (140571) wifi station: found 8 networks:
+I (140571) wifi station:   [1] CMF                               -42 dBm
+I (140571) wifi station:   [2] NeO                               -55 dBm
+I (140571) wifi station:   [3] TP-Link_E8F5                      -65 dBm
+I (140581) wifi station:   [4] AV                                -74 dBm
+I (140581) wifi station:   [5] TP-LINK_E6F2                      -74 dBm
+I (140591) wifi station:   [6] AP_2947486690                     -75 dBm
+I (140601) wifi station:   [7] F100011002624340102               -83 dBm
+I (140601) wifi station:   [8] TP-Link_C0D6                      -86 dBm
+Enter SSID or number from list: 1
+1
+
+I (143311) wifi station: SSID: CMF
+Enter password: ***
+***
+
+I (146041) wifi station: password: ***
+I (146061) wifi station: connecting to SSID:CMF ...
+I (146671) wifi:new:<6,0>, old:<1,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0
+I (146671) wifi:state: init -> auth (0xb0)
+I (147261) wifi:state: auth -> assoc (0x0)
+I (147281) wifi:state: assoc -> run (0x10)
+I (147301) wifi:connected with CMF, aid = 1, channel 6, BW20, bssid = ca:82:80:14:af:73
+I (147301) wifi:security: WPA3-SAE HUNT_AND_PECK, phy: bgn, rssi: -41, cipher(pairwise:0x3, group:0x3), pmf:1
+I (147321) wifi:pm start, type: 1
+
+I (147321) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+I (147321) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000
+I (147331) wifi:dp: 2, bi: 102400, li: 4, scale listen interval from 307200 us to 409600 us
+I (147341) wifi:AP's beacon interval = 102400 us, DTIM period = 2
+I (148371) esp_netif_handlers: sta ip: 10.155.147.138, mask: 255.255.255.0, gw: 10.155.147.242
+I (148371) wifi station: got ip:10.155.147.138
+I (148371) wifi station: successfully connected to SSID:CMF
+status
+status
+
+I (153131) wifi station: WiFi: connected
+I (153131) wifi station:   SSID: CMF
+I (153131) wifi station:   IP:   10.155.147.138
+I (153131) wifi station:   RSSI: -42 dBm
+scan
+scan
+
+I (155851) wifi station: scanning WiFi networks...
+I (158751) wifi station: found 9 networks:
+I (158751) wifi station:   [ 1] SSID: CMF                               RSSI: -43 dBm  CH: 6
+I (158751) wifi station:   [ 2] SSID: NeO                               RSSI: -55 dBm  CH: 11
+I (158761) wifi station:   [ 3] SSID: TP-Link_E8F5                      RSSI: -63 dBm  CH: 4
+I (158761) wifi station:   [ 4] SSID: TP-LINK_E6F2                      RSSI: -73 dBm  CH: 7
+I (158771) wifi station:   [ 5] SSID: AV                                RSSI: -75 dBm  CH: 3
+I (158781) wifi station:   [ 6] SSID: AP_2947486690                     RSSI: -81 dBm  CH: 3
+I (158791) wifi station:   [ 7] SSID: HUAWEI-AN85                       RSSI: -83 dBm  CH: 6
+I (158801) wifi station:   [ 8] SSID: TP-Link_C0D6                      RSSI: -86 dBm  CH: 10
+I (158801) wifi station:   [ 9] SSID: F100011002624340102               RSSI: -87 dBm  CH: 6
+disconnect
+disconnect
+
+I (161531) wifi:state: run -> init (0x0)
+I (161541) wifi:pm stop, total sleep time: 9907309 us / 14216389 us
+
+I (161541) wifi:new:<6,0>, old:<6,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0
+I (161541) wifi station: disconnected
+I (161541) wifi station: connect to the AP fail
+status
+status
+
+W (164251) wifi:Haven't to connect to a suitable AP now!
+I (164251) wifi station: WiFi: connected
+I (164251) wifi station:   SSID: 
+I (164251) wifi station:   IP:   0.0.0.0
+I (164251) wifi station:   RSSI: 0 dBm
+connect
+connect
+
+I (166981) wifi station: scanning...
+I (169481) wifi station: found 6 networks:
+I (169481) wifi station:   [1] CMF                               -45 dBm
+I (169481) wifi station:   [2] NeO                               -57 dBm
+I (169481) wifi station:   [3] TP-Link_E8F5                      -65 dBm
+I (169491) wifi station:   [4] TP-LINK_E6F2                      -72 dBm
+I (169491) wifi station:   [5] F100011002624340102               -87 dBm
+I (169501) wifi station:   [6] TP-Link_C0D6                      -90 dBm
+Enter SSID, number from list, or Enter to use saved [CMF]: 
+
+
+I (172311) wifi station: using saved SSID: CMF
+I (172311) wifi station: connecting to SSID:CMF ...
+I (172321) wifi:new:<6,0>, old:<6,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0
+I (172321) wifi:state: init -> auth (0xb0)
+I (172341) wifi:state: auth -> assoc (0x0)
+I (172361) wifi:state: assoc -> run (0x10)
+I (172391) wifi:connected with CMF, aid = 1, channel 6, BW20, bssid = ca:82:80:14:af:73
+I (172391) wifi:security: WPA3-SAE HUNT_AND_PECK, phy: bgn, rssi: -42, cipher(pairwise:0x3, group:0x3), pmf:1
+I (172401) wifi:pm start, type: 1
+
+I (172401) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+I (172411) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000
+I (172421) wifi:dp: 2, bi: 102400, li: 4, scale listen interval from 307200 us to 409600 us
+I (172421) wifi:AP's beacon interval = 102400 us, DTIM period = 2
+I (173461) esp_netif_handlers: sta ip: 10.155.147.138, mask: 255.255.255.0, gw: 10.155.147.242
+I (173461) wifi station: got ip:10.155.147.138
+I (173461) wifi station: successfully connected to SSID:CMF
+status
+status
+
+I (178191) wifi station: WiFi: connected
+I (178191) wifi station:   SSID: CMF
+I (178191) wifi station:   IP:   10.155.147.138
+I (178191) wifi station:   RSSI: -41 dBm
+reboot
+reboot
+
+I (180911) wifi station: rebooting in 3...
+I (181911) wifi station: 2...
+I (182911) wifi station: 1...
+I (183911) wifi:state: run -> init (0x0)
+I (183921) wifi:pm stop, total sleep time: 8994522 us / 11516299 us
+
+I (183921) wifi:new:<6,0>, old:<6,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0
+I (183921) wifi station: retry to connect to the AP
+I (184011) wifi:flush txq
+I (184011) wifi:stop sw txq
+I (184011) wifi:lmac stop hw txq
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4037d308
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x14f0
+load:0x403c8700,len:0xda0
+load:0x403cb700,len:0x2fa0
+entry 0x403c8908
+I (29) boot: ESP-IDF v6.0.1 2nd stage bootloader
+I (29) boot: compile time Sep 29 2026 14:16:01
+I (29) boot: Multicore bootloader
+I (29) boot: chip revision: v0.2
+I (32) boot: efuse block revision: v1.4
+I (36) boot.esp32s3: Boot SPI Speed : 80MHz
+I (40) boot.esp32s3: SPI Mode       : DIO
+I (43) boot.esp32s3: SPI Flash Size : 2MB
+I (47) boot: Enabling RNG early entropy source...
+I (52) boot: Partition Table:
+I (54) boot: ## Label            Usage          Type ST Offset   Length
+I (60) boot:  0 nvs              WiFi data        01 02 00009000 00004000
+I (67) boot:  1 otadata          OTA data         01 00 0000d000 00002000
+I (73) boot:  2 ota_0            OTA app          00 10 00010000 000f0000
+I (80) boot:  3 ota_1            OTA app          00 11 00100000 000f0000
+I (87) boot: End of partition table
+I (90) esp_image: segment 0: paddr=00010020 vaddr=3c0a0020 size=3341ch (209948) map
+I (135) esp_image: segment 1: paddr=00043444 vaddr=3fc97100 size=0506ch ( 20588) load
+I (139) esp_image: segment 2: paddr=000484b8 vaddr=40374000 size=07b60h ( 31584) load
+I (147) esp_image: segment 3: paddr=00050020 vaddr=42000020 size=92368h (598888) map
+I (254) esp_image: segment 4: paddr=000e2390 vaddr=4037bb60 size=0b574h ( 46452) load
+I (265) esp_image: segment 5: paddr=000ed90c vaddr=50000000 size=00024h (    36) load
+I (274) boot: Loaded app from partition at offset 0x10000
+I (274) boot: Disabling RNG early entropy source...
+I (284) cpu_start: Multicore app
+I (292) cpu_start: GPIO 44 and 43 are used as console UART I/O pins
+I (293) cpu_start: Pro cpu start user code
+I (293) cpu_start: cpu freq: 160000000 Hz
+I (294) app_init: Application information:
+I (298) app_init: Project name:     station_WiFi
+I (303) app_init: App version:      1.3.0
+I (306) app_init: Compile time:     Sep 29 2026 14:15:53
+I (311) app_init: ELF file SHA256:  7fc2e6354...
+I (316) app_init: ESP-IDF:          v6.0.1
+I (320) efuse_init: Min chip rev:     v0.0
+I (323) efuse_init: Max chip rev:     v0.99 
+I (327) efuse_init: Chip rev:         v0.2
+I (331) heap_init: Initializing. RAM available for dynamic allocation:
+I (338) heap_init: At 3FCA0460 len 000492B0 (292 KiB): RAM
+I (343) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM
+I (348) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM
+I (353) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM
+I (359) spi_flash: detected chip: boya
+I (362) spi_flash: flash io: dio
+W (365) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.
+I (378) sleep_gpio: Configure to isolate all GPIO pins in sleep state
+I (383) sleep_gpio: Enable automatic switching of GPIO sleep configuration
+I (390) main_task: Started on CPU0
+I (410) main_task: Calling app_main()
+I (430) temperature_sensor: Range [-10°C ~ 80°C], error < 1°C
+I (440) pp: pp rom version: e7ae62f
+I (440) net80211: net80211 rom version: e7ae62f
+I (450) wifi:wifi driver task: 3fced4ec, prio:23, stack:6656, core=0
+I (450) wifi:wifi firmware version: b37c951
+I (460) wifi:wifi certification version: v7.0
+I (460) wifi:config NVS flash: enabled
+I (460) wifi:config nano formatting: disabled
+I (460) wifi:Init data frame dynamic rx buffer num: 32
+I (460) wifi:Init static rx mgmt buffer num: 5
+I (470) wifi:Init management short buffer num: 32
+I (470) wifi:Init dynamic tx buffer num: 32
+I (480) wifi:Init static tx FG buffer num: 2
+I (480) wifi:Init static rx buffer size: 1600
+I (490) wifi:Init static rx buffer num: 10
+I (490) wifi:Init dynamic rx buffer num: 32
+I (490) wifi_init: rx ba win: 6
+I (500) wifi_init: accept mbox: 6
+I (500) wifi_init: tcpip mbox: 32
+I (500) wifi_init: udp mbox: 6
+I (500) wifi_init: tcp mbox: 6
+I (510) wifi_init: tcp tx win: 5760
+I (510) wifi_init: tcp rx win: 5760
+I (510) wifi_init: tcp mss: 1440
+I (520) wifi_init: WiFi IRAM OP enabled
+I (520) wifi_init: WiFi RX IRAM OP enabled
+I (520) phy_init: phy_version 711,97bcf0a2,Aug 25 2025,19:04:10
+I (570) wifi:mode : sta (e0:72:a1:d4:1f:a4)
+I (570) wifi:enable tsf
+I (570) wifi station: wifi initialized. Type 'connect' to join a network (interactive)
+I (570) wifi station: [OTA] running partition: ota_0, version 1.3.0
+I (580) wifi station: saved credentials found but auto-connect disabled. Type 'connect' to connect.
+I (590) wifi station: station_WiFi fw v1.3.0 ready. Type 'help' for commands
+I (590) main_task: Returned from app_main()
+status
+status
+
+I (5390) wifi station: WiFi: disconnected
+connect
+connect
+
+I (8120) wifi station: scanning...
+I (10620) wifi station: found 6 networks:
+I (10620) wifi station:   [1] CMF                               -43 dBm
+I (10620) wifi station:   [2] NeO                               -55 dBm
+I (10620) wifi station:   [3] TP-Link_E8F5                      -66 dBm
+I (10630) wifi station:   [4] AV                                -75 dBm
+I (10630) wifi station:   [5] AP_2947486690                     -75 dBm
+I (10640) wifi station:   [6] HUAWEI-AN85                       -83 dBm
+Enter SSID, number from list, or Enter to use saved [CMF]: 
+
+
+I (13350) wifi station: using saved SSID: CMF
+I (13350) wifi station: connecting to SSID:CMF ...
+I (13410) wifi:new:<6,0>, old:<1,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0
+I (13410) wifi:state: init -> auth (0xb0)
+I (14040) wifi:state: auth -> assoc (0x0)
+I (14070) wifi:state: assoc -> run (0x10)
+I (14150) wifi:connected with CMF, aid = 1, channel 6, BW20, bssid = ca:82:80:14:af:73
+I (14150) wifi:security: WPA3-SAE HUNT_AND_PECK, phy: bgn, rssi: -43, cipher(pairwise:0x3, group:0x3), pmf:1
+I (14160) wifi:pm start, type: 1
+
+I (14160) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+I (14170) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000
+I (14240) wifi:dp: 2, bi: 102400, li: 4, scale listen interval from 307200 us to 409600 us
+I (14240) wifi:AP's beacon interval = 102400 us, DTIM period = 2
+I (15260) esp_netif_handlers: sta ip: 10.155.147.138, mask: 255.255.255.0, gw: 10.155.147.242
+I (15260) wifi station: got ip:10.155.147.138
+I (15260) wifi station: successfully connected to SSID:CMF
+status
+status
+
+I (19970) wifi station: WiFi: connected
+I (19970) wifi station:   SSID: CMF
+I (19970) wifi station:   IP:   10.155.147.138
+I (19970) wifi station:   RSSI: -41 dBm

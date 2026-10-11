@@ -1,0 +1,166 @@
+disconnect
+disconnect
+
+I (31330) wifi:state: run -> init (0x0)
+I (31340) wifi:pm stop, total sleep time: 15069107 us / 17174057 us
+
+I (31340) wifi:new:<6,0>, old:<6,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0
+I (31340) wifi station: disconnected
+I (31340) wifi station: connect to the AP fail
+status
+status
+
+W (34040) wifi:Haven't to connect to a suitable AP now!
+I (34040) wifi station: WiFi: connected
+I (34040) wifi station:   SSID: 
+I (34040) wifi station:   IP:   0.0.0.0
+I (34040) wifi station:   RSSI: 0 dBm
+status
+status
+
+W (46950) wifi:Haven't to connect to a suitable AP now!
+I (46950) wifi station: WiFi: connected
+I (46950) wifi station:   SSID: 
+I (46950) wifi station:   IP:   0.0.0.0
+I (46950) wifi station:   RSSI: 0 dBm
+ota check
+ota check
+
+connect
+E (56670) esp-tls: couldn't get hostname for :raw.githubusercontent.com: getaddrinfo() returns 202, addrinfo=0
+E (56670) esp-tls: Failed to open new connection
+E (56670) transport_base: Failed to open a new connection
+E (56670) HTTP_CLIENT: Connection failed, sock < 0
+E (56680) wifi station: [OTA] check failed: cannot read stable.txt
+connect
+
+I (56780) wifi station: scanning...
+I (59280) wifi station: found 6 networks:
+I (59280) wifi station:   [1] CMF                               -41 dBm
+I (59280) wifi station:   [2] TP-Link_E8F5                      -66 dBm
+I (59280) wifi station:   [3] TP-LINK_E6F2                      -72 dBm
+I (59290) wifi station:   [4] AV                                -74 dBm
+I (59290) wifi station:   [5] AP_2947486690                     -76 dBm
+I (59300) wifi station:   [6] F100011002624340102               -84 dBm
+Enter SSID, number from list, or Enter to use saved [CMF]: 
+
+
+I (61950) wifi station: using saved SSID: CMF
+I (61950) wifi station: connecting to SSID:CMF ...
+I (61950) wifi:new:<6,0>, old:<6,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0
+I (61950) wifi:state: init -> auth (0xb0)
+I (61990) wifi:state: auth -> assoc (0x0)
+I (62010) wifi:state: assoc -> run (0x10)
+I (62030) wifi:connected with CMF, aid = 1, channel 6, BW20, bssid = ca:82:80:14:af:73
+I (62040) wifi:security: WPA3-SAE HUNT_AND_PECK, phy: bgn, rssi: -40, cipher(pairwise:0x3, group:0x3), pmf:1
+I (62040) wifi:pm start, type: 1
+
+I (62040) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+I (62050) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000
+I (62230) wifi:dp: 2, bi: 102400, li: 4, scale listen interval from 307200 us to 409600 us
+I (62230) wifi:AP's beacon interval = 102400 us, DTIM period = 2
+I (63090) esp_netif_handlers: sta ip: 10.155.147.138, mask: 255.255.255.0, gw: 10.155.147.242
+I (63090) wifi station: got ip:10.155.147.138
+I (63090) wifi station: successfully connected to SSID:CMF
+disconnect
+disconnect
+
+I (67910) wifi:state: run -> init (0x0)
+I (67920) wifi:pm stop, total sleep time: 5003100 us / 5871849 us
+
+I (67920) wifi:new:<6,0>, old:<6,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0
+I (67920) wifi station: disconnected
+I (67920) wifi station: connect to the AP fail
+status
+status
+
+W (70730) wifi:Haven't to connect to a suitable AP now!
+I (70730) wifi station: WiFi: connected
+I (70730) wifi station:   SSID: 
+I (70730) wifi station:   IP:   0.0.0.0
+I (70730) wifi station:   RSSI: 0 dBm
+connect
+connect
+
+I (73460) wifi station: scanning...
+I (75960) wifi station: found 6 networks:
+I (75960) wifi station:   [1] CMF                               -40 dBm
+I (75960) wifi station:   [2] NeO                               -53 dBm
+I (75960) wifi station:   [3] TP-Link_E8F5                      -66 dBm
+I (75970) wifi station:   [4] TP-LINK_E6F2                      -73 dBm
+I (75970) wifi station:   [5] AP_2947486690                     -75 dBm
+I (75980) wifi station:   [6] F100011002624340102               -82 dBm
+Enter SSID, number from list, or Enter to use saved [CMF]: 
+
+
+I (78750) wifi station: using saved SSID: CMF
+I (78750) wifi station: connecting to SSID:CMF ...
+I (78750) wifi:new:<6,0>, old:<6,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0
+I (78750) wifi:state: init -> auth (0xb0)
+I (78770) wifi:state: auth -> assoc (0x0)
+I (78790) wifi:state: assoc -> run (0x10)
+I (78810) wifi:connected with CMF, aid = 1, channel 6, BW20, bssid = ca:82:80:14:af:73
+I (78810) wifi:security: WPA3-SAE HUNT_AND_PECK, phy: bgn, rssi: -41, cipher(pairwise:0x3, group:0x3), pmf:1
+I (78820) wifi:pm start, type: 1
+
+I (78820) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+I (78830) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000
+I (78840) wifi:dp: 2, bi: 102400, li: 4, scale listen interval from 307200 us to 409600 us
+I (78840) wifi:AP's beacon interval = 102400 us, DTIM period = 2
+I (79880) esp_netif_handlers: sta ip: 10.155.147.138, mask: 255.255.255.0, gw: 10.155.147.242
+I (79880) wifi station: got ip:10.155.147.138
+I (79880) wifi station: successfully connected to SSID:CMF
+disconnect
+disconnect
+
+I (84710) wifi:state: run -> init (0x0)
+I (84720) wifi:pm stop, total sleep time: 5093309 us / 5895858 us
+
+I (84720) wifi:new:<6,0>, old:<6,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0
+I (84720) wifi station: disconnected
+I (84720) wifi station: connect to the AP fail
+status
+status
+
+W (87540) wifi:Haven't to connect to a suitable AP now!
+I (87540) wifi station: WiFi: connected
+I (87540) wifi station:   SSID: 
+I (87540) wifi station:   IP:   0.0.0.0
+I (87540) wifi station:   RSSI: 0 dBm
+connect
+connect
+
+I (90250) wifi station: scanning...
+I (92750) wifi station: found 5 networks:
+I (92750) wifi station:   [1] CMF                               -42 dBm
+I (92750) wifi station:   [2] TP-Link_E8F5                      -66 dBm
+I (92750) wifi station:   [3] AP_2947486690                     -73 dBm
+I (92760) wifi station:   [4] AV                                -74 dBm
+I (92760) wifi station:   [5] TP-Link_C0D6                      -86 dBm
+Enter SSID, number from list, or Enter to use saved [CMF]: 
+
+
+I (95540) wifi station: using saved SSID: CMF
+I (95540) wifi station: connecting to SSID:CMF ...
+I (95550) wifi:new:<6,0>, old:<6,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0
+I (95550) wifi:state: init -> auth (0xb0)
+I (95580) wifi:state: auth -> assoc (0x0)
+I (95600) wifi:state: assoc -> run (0x10)
+I (95620) wifi:connected with CMF, aid = 1, channel 6, BW20, bssid = ca:82:80:14:af:73
+I (95620) wifi:security: WPA3-SAE HUNT_AND_PECK, phy: bgn, rssi: -41, cipher(pairwise:0x3, group:0x3), pmf:1
+I (95630) wifi:pm start, type: 1
+
+I (95630) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+I (95640) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000
+I (95720) wifi:dp: 2, bi: 102400, li: 4, scale listen interval from 307200 us to 409600 us
+I (95720) wifi:AP's beacon interval = 102400 us, DTIM period = 2
+I (96670) esp_netif_handlers: sta ip: 10.155.147.138, mask: 255.255.255.0, gw: 10.155.147.242
+I (96670) wifi station: got ip:10.155.147.138
+I (96670) wifi station: successfully connected to SSID:CMF
+status
+status
+
+I (101410) wifi station: WiFi: connected
+I (101410) wifi station:   SSID: CMF
+I (101410) wifi station:   IP:   10.155.147.138
+I (101410) wifi station:   RSSI: -41 dBm

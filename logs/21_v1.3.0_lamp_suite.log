@@ -1,0 +1,538 @@
+lamp status
+lamp status
+
+{"lamp":"off","color":[255,255,255],"brightness":50,"mode":"solid","timer_s":0}
+lamp on
+lamp on
+
+I (305896) wifi station: [LAMP] on
+lamp status
+lamp status
+
+{"lamp":"on","color":[255,255,255],"brightness":50,"mode":"solid","timer_s":0}
+lamp color red
+lamp color red
+
+I (309366) wifi station: [LAMP] color set: red (255,0,0)
+lamp status
+lamp status
+
+{"lamp":"on","color":[255,0,0],"brightness":50,"mode":"solid","timer_s":0}
+lamp color green
+lamp color green
+
+I (312846) wifi station: [LAMP] color set: green (0,255,0)
+lamp status
+lamp status
+
+{"lamp":"on","color":[0,255,0],"brightness":50,"mode":"solid","timer_s":0}
+lamp color blue
+lamp color blue
+
+I (316306) wifi station: [LAMP] color set: blue (0,0,255)
+lamp status
+lamp status
+
+{"lamp":"on","color":[0,0,255],"brightness":50,"mode":"solid","timer_s":0}
+lamp color white
+lamp color white
+
+I (319776) wifi station: [LAMP] color set: white (255,255,255)
+lamp status
+lamp status
+
+{"lamp":"on","color":[255,255,255],"brightness":50,"mode":"solid","timer_s":0}
+lamp color yellow
+lamp color yellow
+
+I (323236) wifi station: [LAMP] color set: yellow (255,180,0)
+lamp status
+lamp status
+
+{"lamp":"on","color":[255,180,0],"brightness":50,"mode":"solid","timer_s":0}
+lamp color purple
+lamp color purple
+
+I (326706) wifi station: [LAMP] color set: purple (160,0,255)
+lamp status
+lamp status
+
+{"lamp":"on","color":[160,0,255],"brightness":50,"mode":"solid","timer_s":0}
+lamp color cyan
+lamp color cyan
+
+I (330156) wifi station: [LAMP] color set: cyan (0,255,255)
+lamp status
+lamp status
+
+{"lamp":"on","color":[0,255,255],"brightness":50,"mode":"solid","timer_s":0}
+lamp color orange
+lamp color orange
+
+E (333616) wifi station: error: unknown color 'orange'
+lamp color RED
+lamp color RED
+
+E (335346) wifi station: error: unknown color 'RED'
+lamp color
+lamp color
+
+E (337066) wifi station: error: unknown lamp command. See 'help'
+lamp status
+lamp status
+
+{"lamp":"on","color":[0,255,255],"brightness":50,"mode":"solid","timer_s":0}
+lamp color 255 0 128
+lamp color 255 0 128
+
+I (340526) wifi station: [LAMP] color set: (255,0,128)
+lamp status
+lamp status
+
+{"lamp":"on","color":[255,0,128],"brightness":50,"mode":"solid","timer_s":0}
+lamp color 0 0 0
+lamp color 0 0 0
+
+I (343976) wifi station: [LAMP] color set: (0,0,0)
+lamp status
+lamp status
+
+{"lamp":"on","color":[0,0,0],"brightness":50,"mode":"solid","timer_s":0}
+lamp color 255 255 255
+lamp color 255 255 255
+
+I (347446) wifi station: [LAMP] color set: (255,255,255)
+lamp status
+lamp status
+
+{"lamp":"on","color":[255,255,255],"brightness":50,"mode":"solid","timer_s":0}
+lamp color 300 0 0
+lamp color 300 0 0
+
+E (350896) wifi station: error: rgb values must be 0-255
+lamp color 0 256 0
+lamp color 0 256 0
+
+E (352526) wifi station: error: rgb values must be 0-255
+lamp color -1 0 0
+lamp color -1 0 0
+
+E (354246) wifi station: error: rgb values must be 0-255
+lamp color 10 20
+lamp color 10 20
+
+E (355976) wifi station: error: unknown color '10'
+lamp color a b c
+lamp color a b c
+
+E (357716) wifi station: error: unknown color 'a'
+lamp color 10 20 30 40
+lamp color 10 20 30 40
+
+I (359466) wifi station: [LAMP] color set: (10,20,30)
+lamp status
+lamp status
+
+{"lamp":"on","color":[10,20,30],"brightness":50,"mode":"solid","timer_s":0}
+lamp brightness 0
+lamp brightness 0
+
+I (362956) wifi station: [LAMP] brightness set: 0%
+lamp status
+lamp status
+
+{"lamp":"on","color":[10,20,30],"brightness":0,"mode":"solid","timer_s":0}
+lamp brightness 100
+lamp brightness 100
+
+I (366456) wifi station: [LAMP] brightness set: 100%
+lamp status
+lamp status
+
+{"lamp":"on","color":[10,20,30],"brightness":100,"mode":"solid","timer_s":0}
+lamp brightness 30
+lamp brightness 30
+
+I (369936) wifi station: [LAMP] brightness set: 30%
+lamp status
+lamp status
+
+{"lamp":"on","color":[10,20,30],"brightness":30,"mode":"solid","timer_s":0}
+lamp brightness 150
+lamp brightness 150
+
+I (373396) wifi station: [LAMP] brightness set: 150%
+lamp brightness 101
+lamp brightness 101
+
+I (375136) wifi station: [LAMP] brightness set: 101%
+lamp brightness -5
+lamp brightness -5
+
+I (376876) wifi station: [LAMP] brightness set: -5%
+lamp brightness -1
+lamp brightness -1
+
+I (378596) wifi station: [LAMP] brightness set: -1%
+lamp brightness abc
+lamp brightness abc
+
+E (380316) wifi station: error: unknown lamp command. See 'help'
+lamp brightness
+lamp brightness
+
+E (382056) wifi station: error: unknown lamp command. See 'help'
+lamp status
+lamp status
+
+{"lamp":"on","color":[10,20,30],"brightness":-1,"mode":"solid","timer_s":0}
+lamp mode blink
+lamp mode blink
+
+I (385536) wifi station: [LAMP] mode set: blink
+lamp status
+lamp status
+
+{"lamp":"on","color":[10,20,30],"brightness":-1,"mode":"blink","timer_s":0}
+lamp mode breathe
+lamp mode breathe
+
+I (388906) wifi station: [LAMP] mode set: breathe
+lamp status
+lamp status
+
+{"lamp":"on","color":[10,20,30],"brightness":-1,"mode":"breathe","timer_s":0}
+lamp mode solid
+lamp mode solid
+
+I (392386) wifi station: [LAMP] mode set: solid
+lamp status
+lamp status
+
+{"lamp":"on","color":[10,20,30],"brightness":-1,"mode":"solid","timer_s":0}
+lamp mode disco
+lamp mode disco
+
+E (395836) wifi station: error: unknown mode 'disco'
+lamp mode rainbow
+lamp mode rainbow
+
+E (397566) wifi station: error: mode 'rainbow' not implemented yet
+lamp mode
+lamp mode
+
+E (399286) wifi station: error: unknown lamp command. See 'help'
+lamp status
+lamp status
+
+{"lamp":"on","color":[10,20,30],"brightness":-1,"mode":"solid","timer_s":0}
+lamp blabla
+lamp blabla
+
+E (402766) wifi station: error: unknown lamp command. See 'help'
+lamp
+lamp
+
+I (404486) wifi station: unknown command, type 'help' for available commands
+lamp scene save 1
+lamp scene save 1
+
+E (406226) wifi station: error: scenes not implemented yet
+lamp scene load 1
+lamp scene load 1
+
+E (407956) wifi station: error: scenes not implemented yet
+lamp scene save 7
+lamp scene save 7
+
+E (409686) wifi station: error: scenes not implemented yet
+lamp scene load 2
+lamp scene load 2
+
+E (411406) wifi station: error: scenes not implemented yet
+lamp off
+lamp off
+
+I (413146) wifi station: [LAMP] off
+lamp status
+lamp status
+
+{"lamp":"off","color":[10,20,30],"brightness":-1,"mode":"solid","timer_s":0}
+lamp timer 5
+lamp timer 5
+
+E (417126) wifi station: error: lamp is off
+lamp on
+lamp on
+
+I (418866) wifi station: [LAMP] on
+lamp timer 5000
+lamp timer 5000
+
+E (420606) wifi station: error: timer must be 1-3600 s (0 = cancel)
+lamp timer -1
+lamp timer -1
+
+E (422346) wifi station: error: timer must be 1-3600 s (0 = cancel)
+lamp timer abc
+lamp timer abc
+
+E (424066) wifi station: error: unknown lamp command. See 'help'
+lamp timer 3601
+lamp timer 3601
+
+E (425806) wifi station: error: timer must be 1-3600 s (0 = cancel)
+lamp timer 3600
+lamp timer 3600
+
+I (427536) wifi station: [LAMP] auto-off in 3600 s
+lamp status
+lamp status
+
+{"lamp":"on","color":[10,20,30],"brightness":-1,"mode":"solid","timer_s":3598}
+lamp timer 0
+lamp timer 0
+
+I (430986) wifi station: [LAMP] timer cancelled
+lamp status
+lamp status
+
+{"lamp":"on","color":[10,20,30],"brightness":-1,"mode":"solid","timer_s":0}
+lamp timer 10
+lamp timer 10
+
+I (434346) wifi station: [LAMP] auto-off in 10 s
+lamp status
+lamp status
+
+{"lamp":"on","color":[10,20,30],"brightness":-1,"mode":"solid","timer_s":5}
+lamp timer 0
+lamp timer 0
+
+I (440846) wifi station: [LAMP] timer cancelled
+lamp status
+lamp status
+
+{"lamp":"on","color":[10,20,30],"brightness":-1,"mode":"solid","timer_s":0}
+lamp timer 5
+lamp timer 5
+
+I (446346) wifi station: [LAMP] auto-off in 5 s
+lamp status
+lamp status
+
+{"lamp":"on","color":[10,20,30],"brightness":-1,"mode":"solid","timer_s":1}
+I (451356) wifi station: [LAMP] timer expired, lamp off
+lamp status
+lamp status
+
+{"lamp":"off","color":[10,20,30],"brightness":-1,"mode":"solid","timer_s":0}
+lamp on
+lamp on
+
+I (454786) wifi station: [LAMP] on
+lamp mode blink
+lamp mode blink
+
+I (456516) wifi station: [LAMP] mode set: blink
+lamp timer 4
+lamp timer 4
+
+I (458236) wifi station: [LAMP] auto-off in 4 s
+I (462236) wifi station: [LAMP] timer expired, lamp off
+lamp status
+lamp status
+
+{"lamp":"off","color":[10,20,30],"brightness":-1,"mode":"blink","timer_s":0}
+lamp on
+lamp on
+
+I (464736) wifi station: [LAMP] on
+lamp mode breathe
+lamp mode breathe
+
+I (466376) wifi station: [LAMP] mode set: breathe
+lamp timer 4
+lamp timer 4
+
+I (468096) wifi station: [LAMP] auto-off in 4 s
+I (472096) wifi station: [LAMP] timer expired, lamp off
+lamp status
+lamp status
+
+{"lamp":"off","color":[10,20,30],"brightness":-1,"mode":"breathe","timer_s":0}
+lamp on
+lamp on
+
+I (474596) wifi station: [LAMP] on
+lamp mode solid
+lamp mode solid
+
+I (476336) wifi station: [LAMP] mode set: solid
+lamp timer 8
+lamp timer 8
+
+I (478066) wifi station: [LAMP] auto-off in 8 s
+lamp off
+lamp off
+
+I (479796) wifi station: [LAMP] off
+lamp status
+lamp status
+
+{"lamp":"off","color":[10,20,30],"brightness":-1,"mode":"solid","timer_s":0}
+lamp on
+lamp on
+
+I (483166) wifi station: [LAMP] on
+lamp status
+lamp status
+
+{"lamp":"on","color":[10,20,30],"brightness":-1,"mode":"solid","timer_s":0}
+lamp status
+lamp status
+
+{"lamp":"on","color":[10,20,30],"brightness":-1,"mode":"solid","timer_s":0}
+lamp timer 1
+lamp timer 1
+
+I (497336) wifi station: [LAMP] auto-off in 1 s
+I (498336) wifi station: [LAMP] timer expired, lamp off
+lamp status
+lamp status
+
+{"lamp":"off","color":[10,20,30],"brightness":-1,"mode":"solid","timer_s":0}
+lamp on
+lamp on
+
+I (505426) wifi station: [LAMP] on
+lamp color 10 200 30
+lamp color 10 200 30
+
+I (507166) wifi station: [LAMP] color set: (10,200,30)
+lamp brightness 70
+lamp brightness 70
+
+I (508906) wifi station: [LAMP] brightness set: 70%
+lamp mode breathe
+lamp mode breathe
+
+I (510626) wifi station: [LAMP] mode set: breathe
+lamp timer 600
+lamp timer 600
+
+I (512346) wifi station: [LAMP] auto-off in 600 s
+lamp status
+lamp status
+
+{"lamp":"on","color":[10,200,30],"brightness":70,"mode":"breathe","timer_s":598}
+reboot
+reboot
+
+I (515696) wifi station: rebooting in 3...
+I (516696) wifi station: 2...
+I (517696) wifi station: 1...
+I (518696) wifi:flush txq
+I (518696) wifi:stop sw txq
+I (518696) wifi:lmac stop hw txq
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4037b94e
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x14f0
+load:0x403c8700,len:0xda0
+load:0x403cb700,len:0x2fa0
+entry 0x403c8908
+I (29) boot: ESP-IDF v6.0.1 2nd stage bootloader
+I (29) boot: compile time Sep 29 2026 14:16:01
+I (29) boot: Multicore bootloader
+I (29) boot: chip revision: v0.2
+I (32) boot: efuse block revision: v1.4
+I (36) boot.esp32s3: Boot SPI Speed : 80MHz
+I (40) boot.esp32s3: SPI Mode       : DIO
+I (43) boot.esp32s3: SPI Flash Size : 2MB
+I (47) boot: Enabling RNG early entropy source...
+I (52) boot: Partition Table:
+I (54) boot: ## Label            Usage          Type ST Offset   Length
+I (60) boot:  0 nvs              WiFi data        01 02 00009000 00004000
+I (67) boot:  1 otadata          OTA data         01 00 0000d000 00002000
+I (73) boot:  2 ota_0            OTA app          00 10 00010000 000f0000
+I (80) boot:  3 ota_1            OTA app          00 11 00100000 000f0000
+I (87) boot: End of partition table
+I (90) esp_image: segment 0: paddr=00010020 vaddr=3c0a0020 size=3341ch (209948) map
+I (135) esp_image: segment 1: paddr=00043444 vaddr=3fc97100 size=0506ch ( 20588) load
+I (140) esp_image: segment 2: paddr=000484b8 vaddr=40374000 size=07b60h ( 31584) load
+I (147) esp_image: segment 3: paddr=00050020 vaddr=42000020 size=92368h (598888) map
+I (255) esp_image: segment 4: paddr=000e2390 vaddr=4037bb60 size=0b574h ( 46452) load
+I (266) esp_image: segment 5: paddr=000ed90c vaddr=50000000 size=00024h (    36) load
+I (274) boot: Loaded app from partition at offset 0x10000
+I (275) boot: Disabling RNG early entropy source...
+I (285) cpu_start: Multicore app
+I (293) cpu_start: GPIO 44 and 43 are used as console UART I/O pins
+I (294) cpu_start: Pro cpu start user code
+I (294) cpu_start: cpu freq: 160000000 Hz
+I (295) app_init: Application information:
+I (299) app_init: Project name:     station_WiFi
+I (303) app_init: App version:      1.3.0
+I (307) app_init: Compile time:     Sep 29 2026 14:15:53
+I (312) app_init: ELF file SHA256:  7fc2e6354...
+I (317) app_init: ESP-IDF:          v6.0.1
+I (320) efuse_init: Min chip rev:     v0.0
+I (324) efuse_init: Max chip rev:     v0.99 
+I (328) efuse_init: Chip rev:         v0.2
+I (332) heap_init: Initializing. RAM available for dynamic allocation:
+I (338) heap_init: At 3FCA0460 len 000492B0 (292 KiB): RAM
+I (343) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM
+I (349) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM
+I (354) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM
+I (360) spi_flash: detected chip: boya
+I (363) spi_flash: flash io: dio
+W (366) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.
+I (378) sleep_gpio: Configure to isolate all GPIO pins in sleep state
+I (384) sleep_gpio: Enable automatic switching of GPIO sleep configuration
+I (391) main_task: Started on CPU0
+I (411) main_task: Calling app_main()
+I (431) temperature_sensor: Range [-10°C ~ 80°C], error < 1°C
+I (431) pp: pp rom version: e7ae62f
+I (431) net80211: net80211 rom version: e7ae62f
+I (451) wifi:wifi driver task: 3fced550, prio:23, stack:6656, core=0
+I (451) wifi:wifi firmware version: b37c951
+I (461) wifi:wifi certification version: v7.0
+I (461) wifi:config NVS flash: enabled
+I (461) wifi:config nano formatting: disabled
+I (461) wifi:Init data frame dynamic rx buffer num: 32
+I (461) wifi:Init static rx mgmt buffer num: 5
+I (471) wifi:Init management short buffer num: 32
+I (471) wifi:Init dynamic tx buffer num: 32
+I (481) wifi:Init static tx FG buffer num: 2
+I (481) wifi:Init static rx buffer size: 1600
+I (491) wifi:Init static rx buffer num: 10
+I (491) wifi:Init dynamic rx buffer num: 32
+I (491) wifi_init: rx ba win: 6
+I (501) wifi_init: accept mbox: 6
+I (501) wifi_init: tcpip mbox: 32
+I (501) wifi_init: udp mbox: 6
+I (501) wifi_init: tcp mbox: 6
+I (511) wifi_init: tcp tx win: 5760
+I (511) wifi_init: tcp rx win: 5760
+I (511) wifi_init: tcp mss: 1440
+I (521) wifi_init: WiFi IRAM OP enabled
+I (521) wifi_init: WiFi RX IRAM OP enabled
+I (521) phy_init: phy_version 711,97bcf0a2,Aug 25 2025,19:04:10
+I (571) wifi:mode : sta (e0:72:a1:d4:1f:a4)
+I (571) wifi:enable tsf
+I (571) wifi station: wifi initialized. Type 'connect' to join a network (interactive)
+I (571) wifi station: [OTA] running partition: ota_0, version 1.3.0
+I (581) wifi station: station_WiFi fw v1.3.0 ready. Type 'help' for commands
+I (581) main_task: Returned from app_main()
+lamp status
+lamp status
+
+{"lamp":"off","color":[10,200,30],"brightness":70,"mode":"breathe","timer_s":0}
+version
+version
+
+I (6101) wifi station: FW: v1.3.0 (build Sep 29 2026 14:15:56)
+I (6101) wifi station:   partition: ota_0 @ 0x10000, state: valid

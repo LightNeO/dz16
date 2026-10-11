@@ -1,0 +1,146 @@
+ota check
+ota check
+
+E (24226) wifi station: [OTA] failed: WiFi not connected. Use 'connect' first.
+ota update
+ota update
+
+E (27046) wifi station: [OTA] failed: WiFi not connected. Use 'connect' first.
+ota update beta
+ota update beta
+
+E (29766) wifi station: [OTA] failed: WiFi not connected. Use 'connect' first.
+ota install 1.4.0
+ota install 1.4.0
+
+E (32586) wifi station: [OTA] failed: WiFi not connected. Use 'connect' first.
+ota broken
+ota broken
+
+E (35406) wifi station: [OTA] failed: WiFi not connected. Use 'connect' first.
+ota https://example.com/fw.bin
+ota https://example.com/fw.bin
+
+E (38236) wifi station: [OTA] failed: WiFi not connected. Use 'connect' first.
+connect
+connect
+
+I (40966) wifi station: scanning...
+I (43466) wifi station: found 9 networks:
+I (43466) wifi station:   [1] CMF                               -47 dBm
+I (43466) wifi station:   [2] NeO                               -57 dBm
+I (43466) wifi station:   [3] TP-Link_E8F5                      -63 dBm
+I (43476) wifi station:   [4] TP-LINK_E6F2                      -72 dBm
+I (43476) wifi station:   [5] AP_2947486690                     -79 dBm
+I (43486) wifi station:   [6] HUAWEI-AN85                       -84 dBm
+I (43496) wifi station:   [7] F100011002624340102               -86 dBm
+I (43496) wifi station:   [8] TP-Link_C0D6                      -87 dBm
+I (43506) wifi station:   [9] AVIA LINK                         -91 dBm
+Enter SSID or number from list: 
+[uart.py] TIMEOUT waiting for: Enter SSID
+
+
+
+I (66346) wifi station: SSID cannot be empty
+connect
+connect
+
+I (72166) wifi station: scanning...
+I (74666) wifi station: found 4 networks:
+I (74666) wifi station:   [1] CMF                               -43 dBm
+I (74666) wifi station:   [2] TP-Link_E8F5                      -65 dBm
+I (74666) wifi station:   [3] AP_2947486690                     -84 dBm
+I (74676) wifi station:   [4] TP-Link_C0D6                      -88 dBm
+Enter SSID or number from list: 
+[uart.py] TIMEOUT waiting for: Enter SSID
+CMF
+CMF
+
+I (97546) wifi station: SSID: CMF
+Enter password: 
+[uart.py] TIMEOUT waiting for: assword
+short
+short
+
+I (120416) wifi station: password too short (min 8 chars)
+connect
+connect
+
+I (126266) wifi station: scanning...
+I (128766) wifi station: found 8 networks:
+I (128766) wifi station:   [1] CMF                               -43 dBm
+I (128766) wifi station:   [2] TP-Link_E8F5                      -63 dBm
+I (128766) wifi station:   [3] AV                                -72 dBm
+I (128776) wifi station:   [4] TP-LINK_E6F2                      -73 dBm
+I (128776) wifi station:   [5] AP_2947486690                     -77 dBm
+I (128786) wifi station:   [6] F100011002624340102               -86 dBm
+I (128796) wifi station:   [7] TP-Link_C0D6                      -87 dBm
+I (128796) wifi station:   [8] AVIA LINK                         -89 dBm
+Enter SSID or number from list: 
+[uart.py] TIMEOUT waiting for: Enter SSID
+CMF
+CMF
+
+I (151576) wifi station: SSID: CMF
+Enter password: 
+[uart.py] TIMEOUT waiting for: assword
+wrongpass123
+wrongpass123
+
+I (174356) wifi station: password: ***
+I (174366) wifi station: connecting to SSID:CMF ...
+I (174976) wifi:new:<6,0>, old:<1,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0
+I (174976) wifi:state: init -> auth (0xb0)
+I (175566) wifi:state: auth -> init (0x600)
+I (175576) wifi:new:<6,0>, old:<6,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0
+I (175576) wifi station: retry to connect to the AP
+I (177986) wifi station: retry to connect to the AP
+I (177996) wifi:new:<6,0>, old:<6,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0
+I (177996) wifi:state: init -> auth (0xb0)
+I (178606) wifi:state: auth -> init (0x600)
+I (178616) wifi:new:<6,0>, old:<6,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0
+I (178616) wifi station: retry to connect to the AP
+I (181026) wifi station: retry to connect to the AP
+I (181086) wifi:new:<6,0>, old:<6,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0
+I (181086) wifi:state: init -> auth (0xb0)
+I (183646) wifi:state: auth -> init (0x200)
+I (183656) wifi:new:<6,0>, old:<6,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0
+I (183656) wifi station: retry to connect to the AP
+I (184366) wifi station: connection timeout
+I (186066) wifi station: connect to the AP fail
+connect
+connect
+
+I (202926) wifi station: scanning...
+I (205426) wifi station: found 7 networks:
+I (205426) wifi station:   [1] CMF                               -43 dBm
+I (205426) wifi station:   [2] NeO                               -59 dBm
+I (205426) wifi station:   [3] TP-Link_E8F5                      -64 dBm
+I (205436) wifi station:   [4] TP-LINK_E6F2                      -72 dBm
+I (205436) wifi station:   [5] AV                                -73 dBm
+I (205446) wifi station:   [6] AP_2947486690                     -79 dBm
+I (205456) wifi station:   [7] F100011002624340102               -87 dBm
+Enter SSID or number from list: 
+[uart.py] TIMEOUT waiting for: Enter SSID
+NoSuchNet_qa
+NoSuchNet_qa
+
+I (228296) wifi station: SSID: NoSuchNet_qa
+Enter password: 
+[uart.py] TIMEOUT waiting for: assword
+whatever123
+whatever123
+
+I (251156) wifi station: password: ***
+I (251176) wifi station: connecting to SSID:NoSuchNet_qa ...
+I (253586) wifi station: retry to connect to the AP
+I (255996) wifi station: retry to connect to the AP
+I (258416) wifi station: retry to connect to the AP
+I (260826) wifi station: retry to connect to the AP
+I (261176) wifi station: connection timeout
+I (263236) wifi station: retry to connect to the AP
+I (265646) wifi station: connect to the AP fail
+status
+status
+
+I (282446) wifi station: WiFi: disconnected

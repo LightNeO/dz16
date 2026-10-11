@@ -1,0 +1,64 @@
+version
+version
+
+I (20686) wifi station: FW: v1.5.0 (build Sep 29 2026 15:23:09)
+I (20686) wifi station:   partition: ota_0 @ 0x10000, state: valid
+lamp color 0 255 0
+lamp color 0 255 0
+
+I (24926) wifi station: [LAMP] color set: (0,255,0)
+I (27036) wifi station: button 3 pressed (GPIO39)
+I (27036) wifi station: [K3] wifi reconnect (saved credentials)
+I (27036) wifi station: connecting to saved SSID:CMF ...
+I (27046) wifi:new:<6,0>, old:<1,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0
+I (27046) wifi:state: init -> auth (0xb0)
+I (27626) wifi:state: auth -> assoc (0x0)
+I (27646) wifi:state: assoc -> run (0x10)
+I (27676) wifi:connected with CMF, aid = 1, channel 6, BW20, bssid = 7e:43:ba:f2:8f:50
+I (27676) wifi:security: WPA3-SAE HUNT_AND_PECK, phy: bgn, rssi: -39, cipher(pairwise:0x3, group:0x3), pmf:1
+I (27686) wifi:pm start, type: 1
+
+I (27686) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+I (27696) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000
+I (27766) wifi:dp: 2, bi: 102400, li: 4, scale listen interval from 307200 us to 409600 us
+I (27766) wifi:AP's beacon interval = 102400 us, DTIM period = 2
+I (28726) esp_netif_handlers: sta ip: 10.155.147.138, mask: 255.255.255.0, gw: 10.155.147.242
+I (28726) wifi station: got ip:10.155.147.138
+lamp brightness 40
+lamp brightness 40
+
+I (32886) wifi station: [LAMP] brightness set: 40%
+lamp mode blink
+lamp mode blink
+
+I (37126) wifi station: [LAMP] mode set: blink
+lamp status
+lamp status
+
+{"lamp":"off","color":[0,255,0],"brightness":40,"mode":"blink","timer_s":0}
+status
+status
+
+I (45516) wifi station: WiFi: connected
+I (45516) wifi station:   SSID: CMF
+I (45516) wifi station:   IP:   10.155.147.138
+I (45516) wifi station:   RSSI: -49 dBm
+I (46186) wifi station: button 3 pressed (GPIO39)
+I (46186) wifi station: [K3] wifi disconnect
+I (46186) wifi:state: run -> init (0x0)
+I (46196) wifi:pm stop, total sleep time: 16818643 us / 18508823 us
+
+I (46196) wifi:new:<6,0>, old:<6,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0
+I (46196) wifi station: disconnected
+I (46196) wifi station: connect to the AP fail
+I (55396) wifi station: button 3 pressed (GPIO39)
+I (55396) wifi station: [K3] wifi disconnect
+I (55396) wifi station: disconnected
+status
+status
+
+W (132356) wifi:Haven't to connect to a suitable AP now!
+I (132356) wifi station: WiFi: connected
+I (132356) wifi station:   SSID: 
+I (132356) wifi station:   IP:   0.0.0.0
+I (132356) wifi station:   RSSI: 0 dBm

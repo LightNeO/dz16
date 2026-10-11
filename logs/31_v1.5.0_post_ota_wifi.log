@@ -1,0 +1,159 @@
+status
+status
+
+I (27514) wifi station: WiFi: disconnected
+connect
+connect
+
+I (31634) wifi station: scanning...
+I (34134) wifi station: found 6 networks:
+I (34134) wifi station:   [1] CMF                               -44 dBm
+I (34134) wifi station:   [2] NeO                               -56 dBm
+I (34134) wifi station:   [3] TP-Link_E8F5                      -65 dBm
+I (34144) wifi station:   [4] TP-LINK_E6F2                      -73 dBm
+I (34144) wifi station:   [5] F100011002624340102               -86 dBm
+I (34154) wifi station:   [6] TP-Link_C0D6                      -88 dBm
+Enter SSID or number from list: 
+
+
+I (38344) wifi station: SSID cannot be empty
+ota check
+ota check
+
+E (45594) wifi station: [OTA] failed: WiFi not connected. Use 'connect' first.
+connect
+connect
+
+I (65274) wifi station: scanning...
+I (67774) wifi station: found 9 networks:
+I (67774) wifi station:   [1] CMF                               -45 dBm
+I (67774) wifi station:   [2] NeO                               -55 dBm
+I (67774) wifi station:   [3] TP-Link_E8F5                      -63 dBm
+I (67784) wifi station:   [4] AV                                -69 dBm
+I (67784) wifi station:   [5] TP-LINK_E6F2                      -74 dBm
+I (67794) wifi station:   [6] AP_2947486690                     -78 dBm
+I (67804) wifi station:   [7] HUAWEI-AN85                       -80 dBm
+I (67804) wifi station:   [8] F100011002624340102               -86 dBm
+I (67814) wifi station:   [9] TP-Link_C0D6                      -87 dBm
+Enter SSID or number from list: CMF
+CMF
+
+I (70504) wifi station: SSID: CMF
+Enter password: ***
+***
+
+I (73224) wifi station: password: ***
+I (73234) wifi station: connecting to SSID:CMF ...
+I (73844) wifi:new:<6,0>, old:<1,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0
+I (73844) wifi:state: init -> auth (0xb0)
+I (74434) wifi:state: auth -> assoc (0x0)
+I (74454) wifi:state: assoc -> run (0x10)
+I (74474) wifi:connected with CMF, aid = 1, channel 6, BW20, bssid = ca:82:80:14:af:73
+I (74474) wifi:security: WPA3-SAE HUNT_AND_PECK, phy: bgn, rssi: -45, cipher(pairwise:0x3, group:0x3), pmf:1
+I (74484) wifi:pm start, type: 1
+
+I (74484) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+I (74484) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000
+I (74494) wifi:dp: 2, bi: 102400, li: 4, scale listen interval from 307200 us to 409600 us
+I (74504) wifi:AP's beacon interval = 102400 us, DTIM period = 2
+I (75534) esp_netif_handlers: sta ip: 10.155.147.138, mask: 255.255.255.0, gw: 10.155.147.242
+I (75534) wifi station: got ip:10.155.147.138
+I (75534) wifi station: successfully connected to SSID:CMF
+status
+status
+
+I (80304) wifi station: WiFi: connected
+I (80304) wifi station:   SSID: CMF
+I (80304) wifi station:   IP:   10.155.147.138
+I (80304) wifi station:   RSSI: -44 dBm
+scan
+scan
+
+I (83024) wifi station: scanning WiFi networks...
+disconnect
+I (85924) wifi station: found 8 networks:
+I (85924) wifi station:   [ 1] SSID: CMF                               RSSI: -44 dBm  CH: 6
+I (85924) wifi station:   [ 2] SSID: NeO                               RSSI: -54 dBm  CH: 11
+I (85924) wifi station:   [ 3] SSID: TP-Link_E8F5                      RSSI: -63 dBm  CH: 4
+I (85934) wifi station:   [ 4] SSID: AV                                RSSI: -70 dBm  CH: 3
+I (85944) wifi station:   [ 5] SSID: TP-LINK_E6F2                      RSSI: -75 dBm  CH: 7
+I (85954) wifi station:   [ 6] SSID: AP_2947486690                     RSSI: -80 dBm  CH: 3
+I (85964) wifi station:   [ 7] SSID: HUAWEI-AN85                       RSSI: -85 dBm  CH: 6
+I (85974) wifi station:   [ 8] SSID: TP-Link_C0D6                      RSSI: -88 dBm  CH: 10
+disconnect
+
+I (86074) wifi:state: run -> init (0x0)
+I (86084) wifi:pm stop, total sleep time: 8118168 us / 11596336 us
+
+I (86084) wifi:new:<6,0>, old:<6,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0
+I (86084) wifi station: disconnected
+I (86084) wifi station: connect to the AP fail
+status
+status
+
+W (88804) wifi:Haven't to connect to a suitable AP now!
+I (88804) wifi station: WiFi: connected
+I (88804) wifi station:   SSID: 
+I (88804) wifi station:   IP:   0.0.0.0
+I (88804) wifi station:   RSSI: 0 dBm
+ota check
+ota check
+
+connect
+E (98524) esp-tls: couldn't get hostname for :raw.githubusercontent.com: getaddrinfo() returns 202, addrinfo=0
+E (98524) esp-tls: Failed to open new connection
+E (98524) transport_base: Failed to open a new connection
+E (98524) HTTP_CLIENT: Connection failed, sock < 0
+E (98534) wifi station: [OTA] check failed: cannot read stable.txt
+connect
+
+I (98634) wifi station: scanning...
+I (101134) wifi station: found 10 networks:
+I (101134) wifi station:   [1] CMF                               -44 dBm
+I (101134) wifi station:   [2] NeO                               -54 dBm
+I (101134) wifi station:   [3] AV                                -64 dBm
+I (101144) wifi station:   [4] TP-Link_E8F5                      -64 dBm
+I (101144) wifi station:   [5] TP-LINK_E6F2                      -71 dBm
+I (101154) wifi station:   [6] HUAWEI-AN85                       -83 dBm
+I (101164) wifi station:   [7] AP_2947486690                     -83 dBm
+I (101164) wifi station:   [8] HUAWEI-75                         -86 dBm
+I (101174) wifi station:   [9] TP-Link_C0D6                      -86 dBm
+I (101184) wifi station:   [10] Slava_Ukraine                     -87 dBm
+Enter SSID, number from list, or Enter to use saved [CMF]: 
+
+
+I (101984) wifi station: using saved SSID: CMF
+I (101984) wifi station: connecting to SSID:CMF ...
+I (101984) wifi:new:<6,0>, old:<6,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0
+I (101984) wifi:state: init -> auth (0xb0)
+I (102004) wifi:state: auth -> assoc (0x0)
+I (102024) wifi:state: assoc -> run (0x10)
+I (102054) wifi:connected with CMF, aid = 1, channel 6, BW20, bssid = ca:82:80:14:af:73
+I (102054) wifi:security: WPA3-SAE HUNT_AND_PECK, phy: bgn, rssi: -46, cipher(pairwise:0x3, group:0x3), pmf:1
+I (102054) wifi:pm start, type: 1
+
+I (102064) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+I (102064) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000
+I (102124) wifi:dp: 2, bi: 102400, li: 4, scale listen interval from 307200 us to 409600 us
+I (102124) wifi:AP's beacon interval = 102400 us, DTIM period = 2
+I (103094) esp_netif_handlers: sta ip: 10.155.147.138, mask: 255.255.255.0, gw: 10.155.147.242
+I (103094) wifi station: got ip:10.155.147.138
+I (103094) wifi station: successfully connected to SSID:CMF
+status
+status
+
+I (107864) wifi station: WiFi: connected
+I (107864) wifi station:   SSID: CMF
+I (107864) wifi station:   IP:   10.155.147.138
+I (107864) wifi station:   RSSI: -44 dBm
+ota check
+ota check
+
+I (110584) wifi:<ba-add>idx:0 (ifx:0, ca:82:80:14:af:73), tid:0, ssn:4, winSize:64
+I (111044) wifi:<ba-add>idx:1 (ifx:0, ca:82:80:14:af:73), tid:2, ssn:5, winSize:64
+I (111294) esp-x509-crt-bundle: Certificate validated
+I (112924) esp-x509-crt-bundle: Certificate validated
+I (113724) wifi station: [OTA] current version: 1.5.0
+I (113724) wifi station: [OTA] stable channel:  1.4.0
+I (113724) wifi station: [OTA] beta channel:    1.5.0
+I (113724) wifi station: [OTA] up to date (stable)
